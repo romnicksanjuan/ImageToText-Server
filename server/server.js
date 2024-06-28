@@ -37,7 +37,7 @@ app.post('/', upload.single('image'), (req, res) => {
     }
 })
 
-app.get('potaka', (req,res) =>{
+app.get('/potaka', (req,res) =>{
   res.json('potang ina mo')
 })
 
