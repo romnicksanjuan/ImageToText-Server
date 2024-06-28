@@ -37,6 +37,10 @@ app.post('/', upload.single('image'), (req, res) => {
     }
 })
 
+app.get('potaka', (req,res) =>{
+  res.json('potang ina mo')
+})
+
 
 app.listen(3000, () => {
     console.log('server is running')
